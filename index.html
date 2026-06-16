@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO Bài 1 HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Chào Mừng Đến Với Lớp Học HTML5</h1>
+    <p>Trang tổng hợp kiến thức nền tảng của Bài 1</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#ly-thuyet">Lý Thuyết Khung</a></li>
+      <li><a href="#loi-ich">Lợi Ích Học Tập</a></li>
+      <li><a href="#dang-ky">Đăng Ký Tư Vấn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="ly-thuyet">
+      <h2>1. Cấu Trúc Ngữ Nghĩa (Semantic HTML)</h2>
+      <p>Việc sử dụng các thẻ bố cục giúp trình duyệt hiểu rõ vai trò của từng phân đoạn nội dung trên trang web.</p>
+      
+      <img src="https://via.placeholder.com/600x300" alt="Sơ đồ minh họa cấu trúc bố cục HTML5 chuẩn">
+    </section>
+
+    <section id="loi-ich">
+      <h2>2. Lợi Ích Của Việc Học Lập Trình Web</h2>
+      <ul>
+        <li>Tự tay xây dựng giao diện trang web theo ý muốn.</li>
+        <li>Tạo nền tảng vững chắc để học tiếp lên CSS và JavaScript.</li>
+        <li>Mở rộng cơ hội nghề nghiệp trong ngành Công nghệ thông tin.</li>
+      </ul>
+
+      <h2>3. Lịch Trình Các Bài Học Đầu Tiên</h2>
+      <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Bài Học</th>
+            <th>Nội Dung Chính</th>
+            <th>Thời Lượng</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bài 1</td>
+            <td>Làm quen HTML và các thẻ cơ bản</td>
+            <td>2 giờ</td>
+          </tr>
+          <tr>
+            <td>Bài 2</td>
+            <td>Định dạng văn bản và danh sách nâng cao</td>
+            <td>2.5 giờ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <section id="dang-ky">
+    <h2>4. Đăng Ký Nhận Tài Liệu Học Tập</h2>
+    <form action="#" method="POST">
+      <div>
+        <label for="hoTen">Họ và Tên:</label>
+        <input type="text" id="hoTen" name="fullName" placeholder="Nhập tên của bạn..." required>
+      </div>
+      <br>
+      <div>
+        <label for="email">Địa chỉ Email:</label>
+        <input type="email" id="email" name="userEmail" placeholder="ví_dụ@gmail.com" required>
+      </div>
+      <br>
+      <div>
+        <label for="khoaHoc">Khóa học quan tâm:</label>
+        <select id="khoaHoc" name="courseSelect">
+          <option value="html-basic">HTML Cơ Bản</option>
+          <option value="css-layout">CSS Dựng Giao Diện</option>
+          <option value="js-fundamental">JavaScript Căn Bản</option>
+        </select>
+      </div>
+      <br>
+      <button type="submit">Gửi thông tin</button>
+    </form>
+  </section>
+
+  <footer>
+    <hr>
+    <p>&copy; 2026 Trang Học Tập HTML. Tất cả các quyền được bảo lưu.</p>
+    <p>Liên hệ hỗ trợ: trogiup@hocweb.edu.vn</p>
+  </footer>
+
+</body>
+</html>
